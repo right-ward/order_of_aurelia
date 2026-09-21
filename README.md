@@ -1,7 +1,6 @@
 # Order of Aurelia
-an unciv mod
 
-Order of Aurelia is an extension ruleset for **Civ V - Gods & Kings**, centered on King Lucian and a civilization built around strong social cohesion, professional institutions, scientific development, and defensive military organization.
+Order of Aurelia is an extension mod for **Unciv - Gods & Kings**, centered on King Lucian and a civilization built around strong social cohesion, professional institutions, scientific development, and defensive military organization.
 
 ## Civilization
 **Order of Aurelia** — Capital: Aurelia — Leader: King Lucian
@@ -30,5 +29,3 @@ Order of Aurelia is an extension ruleset for **Civ V - Gods & Kings**, centered 
 - **The Order's Neo-Infantry** replaces Mechanized Infantry: +10% Strength, +1 Movement, +20% Production cost.
 - **Hannibal's Legacy** replaces Great General and provides a +15% Strength aura to Military units within 2 tiles.
 
-## Deferred mechanics
-The current Unciv JSON unique system does not expose a generic repeating every-5-turns trigger or a generic unit-count cap, so Hannibal's requested recurring spawn and 3-unit maximum are not implemented yet. The requested +10% defense specifically against ranged attacks likewise has no current documented unique. Custom religion artwork is deferred.
