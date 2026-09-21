@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Athena's University",
+        "maintenance": 2,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {
+            "science": 33
+        },
+        "specialistSlots": {
+            "Scientist": 2
+        },
+        "requiredBuilding": "Library",
+        "uniques": [
+            "[+2 Science] from [Jungle] tiles [in this city]",
+            "+2 Science",
+            "+25% Science"
+        ],
+        "requiredTech": "Education",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "University",
+        "civilopediaText": [
+            {
+                "text": "Named for Athena, patron of wisdom and strategy, the university forms the intellectual heart of Aurelia's educational system. Its scholars pursue knowledge not merely for its own sake, but for the future of the Order."
+            }
+        ]
+    },
+    {
+        "name": "Hephaestus's Workshop",
+        "maintenance": 2,
+        "production": 2,
+        "specialistSlots": {
+            "Engineer": 1
+        },
+        "hurryCostModifier": 25,
+        "percentStatBonus": {
+            "production": 10
+        },
+        "requiredTech": "Metal Casting",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Workshop",
+        "uniques": [
+            "+2 Production",
+            "+25% Production"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Inspired by the master smith Hephaestus, these workshops embody Aurelia's tradition of disciplined craftsmanship and industrial ingenuity."
+            }
+        ]
+    },
+    {
+        "name": "Hermes's Guild",
+        "gold": 2,
+        "specialistSlots": {
+            "Merchant": 1
+        },
+        "hurryCostModifier": 25,
+        "percentStatBonus": {
+            "gold": 25
+        },
+        "requiredTech": "Currency",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Market",
+        "uniques": [
+            "+2 Gold",
+            "+25% Gold"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Named for Hermes, patron of travelers and commerce, the guild connects Aurelia's merchants and craftsmen, turning trade into another foundation of national prosperity."
+            }
+        ]
+    },
+    {
+        "name": "Asclepius's Palace",
+        "food": 5,
+        "requiredBuilding": "Aqueduct",
+        "maintenance": 2,
+        "hurryCostModifier": 0,
+        "requiredTech": "Biology",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Hospital",
+        "uniques": [
+            "+2 Food",
+            "+25% Food",
+            "+1 Happiness"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Named for Asclepius, healer of the ancient world, the palace represents Aurelia's commitment to preserving and improving the lives of its people."
+            }
+        ]
+    },
+    {
+        "name": "Eyes of Heimdall",
+        "cost": 120,
+        "isNationalWonder": true,
+        "uniqueTo": "Order of Aurelia",
+        "uniques": [
+            "Gain an extra spy",
+            "Gain an extra spy",
+            "Gain an extra spy",
+            "[+50]% spy effectiveness",
+            "Only available <starting from the [Renaissance era]>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Heimdall was said to see and hear across vast distances. The Order's intelligence service seeks to embody that vigilance, watching beyond Aurelia's borders so its people need not be caught unprepared."
+            }
+        ]
+    },
+    {
+        "name": "The Aurelia Project",
+        "cost": 1000,
+        "isWonder": true,
+        "requiredTech": "Future Tech",
+        "uniques": [
+            "[+100]% [Aluminum] resource production",
+            "[+100]% [Uranium] resource production"
+        ],
+        "civilopediaText": [
+            {
+                "text": "The greatest undertaking in Aurelia's history. The Project opens the path toward interplanetary travel and the extraction of resources beyond Earth, transforming the Order's vision of the future into reality."
+            }
+        ]
+    }
+]
