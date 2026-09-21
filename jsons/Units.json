@@ -60,7 +60,9 @@
         "uniques": [
             "[+10]% Strength",
             "[+10]% Strength <vs [Ranged] units> <when defending>",
-            "15% production cost"
+            "15% production cost",
+            "10% production cost",
+            "[+10]% Strength <vs [Ranged] units> <when defending>"
         ],
         "civilopediaText": [
             {
@@ -101,7 +103,8 @@
             "[This Unit] gets a name from the [General] group",
             "Great Person - [War]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+            "[Great General] is earned [+50]% faster <when at war>"
         ],
         "movement": 2,
         "uniqueTo": "Order of Aurelia",
