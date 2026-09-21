@@ -7,7 +7,7 @@ Order of Aurelia is an extension mod for **Unciv - Gods & Kings**, centered on K
 
 **Many Hands, One Will:** +50% Production while the empire is Happy.
 
-**A Future Worth Building:** completing a building grants Science and Culture equal to 50% of its base Production cost. The implementation represents this with construction triggers for the base Gods & Kings buildings and rounds odd costs down.
+**A Future Worth Building:** completing any building grants 100 Science and 100 Culture.
 
 ## Religion
 **Cult of Aurelia**
