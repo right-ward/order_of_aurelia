@@ -62,7 +62,8 @@
             "[+10]% Strength <vs [Ranged] units> <when defending>",
             "15% production cost",
             "10% production cost",
-            "[+10]% Strength <vs [Ranged] units> <when defending>"
+            "[+10]% Strength <vs [Ranged] units> <when defending>",
+            "[+10]% Strength <when defending> <vs [Ranged]>"
         ],
         "civilopediaText": [
             {
@@ -102,16 +103,14 @@
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [General] group",
             "Great Person - [War]",
-            "Unbuildable",
-            "Uncapturable",
-            "[Great General] is earned [+50]% faster <when at war>"
+            "[Great General] is earned [+100]% faster <when at war>"
         ],
         "movement": 2,
         "uniqueTo": "Order of Aurelia",
         "replaces": "Great General",
         "civilopediaText": [
             {
-                "text": "Hannibal's victories demonstrated what disciplined leadership could accomplish against overwhelming odds. His legacy became the foundation of Aurelia's professional military doctrine: careful planning, decisive action, and commanders who fight beside their soldiers."
+                "text": "Hannibal's victories demonstrated what disciplined leadership could accomplish against overwhelming odds. His legacy became the foundation of Aurelia's professional military doctrine: careful planning, decisive action, and commanders who fight beside their soldiers. During wartime, the Order's military experience produces new commanders at twice the normal rate."
             }
         ]
     }
