@@ -14,7 +14,6 @@
         "uniqueTo": "Order of Aurelia",
         "replaces": "Swordsman",
         "uniques": [
-            "[+10]% Strength",
             "[+10]% Strength"
         ],
         "civilopediaText": [
@@ -36,7 +35,6 @@
         "uniqueTo": "Order of Aurelia",
         "replaces": "Rifleman",
         "uniques": [
-            "[+10]% Strength",
             "[+10]% Strength"
         ],
         "civilopediaText": [
@@ -59,7 +57,6 @@
         "replaces": "Infantry",
         "uniques": [
             "[+10]% Strength",
-            "[+10]% Strength",
             "[+10]% Strength <when defending> <vs [Ranged]>"
         ],
         "civilopediaText": [
@@ -77,8 +74,6 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "Never appears as a Barbarian unit",
-            "[+10]% Strength",
-            "[1] Movement",
             "[+10]% Strength",
             "[1] Movement"
         ],
