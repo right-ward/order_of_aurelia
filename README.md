@@ -23,9 +23,9 @@ Order of Aurelia is an extension mod for **Unciv - Gods & Kings**, centered on K
 - **The Aurelia Project** is a Future Tech World Wonder providing +100% Aluminum resource production and +100% Uranium resource production.
 
 ## Military
-- ****The Order's Knights** replaces Swordsman: +10% Strength, +10% Production cost.
-- ****The Order's Riflemen** replaces Rifleman: +10% Strength, +10% Production cost.
-- ****The Order's Infantry** replaces Infantry: +10% Strength, +10% Strength while defending against Ranged units, +15% Production cost.
-- ****The Order's Neo-Infantry** replaces Mechanized Infantry: +10% Strength, +1 Movement, +20% Production cost.
+- **The Order's Knights** replaces Swordsman: +10% Strength; cost 83.
+- **The Order's Riflemen** replaces Rifleman: +10% Strength; cost 248.
+- **The Order's Infantry** replaces Infantry: +10% Strength, +10% Strength while defending against Ranged units; cost 431.
+- **The Order's Neo-Infantry** replaces Mechanized Infantry: +10% Strength, +1 Movement; cost 450.
 - **Hannibal's Legacy** replaces Great General, provides a +15% Strength aura to Military units within 2 tiles, and makes Great Generals be earned 50% faster while at war.
 
