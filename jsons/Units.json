@@ -1,0 +1,114 @@
+[
+    {
+        "name": "The Order's Knights",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "requiredResource": "Iron",
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Swordsman",
+        "uniques": [
+            "[+10]% Strength",
+            "10% production cost"
+        ],
+        "civilopediaText": [
+            {
+                "text": "The first professional soldiers of Aurelia, trained to fight with discipline and coordination rather than relying on numbers alone. Their service establishes the tradition that would define the Order's military for centuries."
+            }
+        ]
+    },
+    {
+        "name": "The Order's Riflemen",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 34,
+        "cost": 225,
+        "requiredTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
+        "upgradesTo": "Great War Infantry",
+        "attackSound": "shot",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Rifleman",
+        "uniques": [
+            "[+10]% Strength",
+            "10% production cost"
+        ],
+        "civilopediaText": [
+            {
+                "text": "As firearms transformed warfare, Aurelia's professional soldiers adapted with them. The Order's Riflemen are drilled to operate as cohesive formations under experienced command."
+            }
+        ]
+    },
+    {
+        "name": "The Order's Infantry",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 70,
+        "cost": 375,
+        "requiredTech": "Plastics",
+        "upgradesTo": "Mechanized Infantry",
+        "obsoleteTech": "Mobile Tactics",
+        "attackSound": "shot",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Infantry",
+        "uniques": [
+            "[+10]% Strength",
+            "15% production cost"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Modern warfare demands more than courage. The Order's Infantry are extensively trained, equipped, and organized to operate under demanding conditions while maintaining the discipline expected of Aurelia's professional forces."
+            }
+        ]
+    },
+    {
+        "name": "The Order's Neo-Infantry",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "strength": 90,
+        "cost": 375,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "[+10]% Strength",
+            "[1] Movement",
+            "20% production cost"
+        ],
+        "attackSound": "tankshot",
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Mechanized Infantry",
+        "civilopediaText": [
+            {
+                "text": "The culmination of Aurelia's professional infantry doctrine, Neo-Infantry combine advanced technology with generations of military experience. They represent the Order's belief that technological progress should strengthen the people who wield it."
+            }
+        ]
+    },
+    {
+        "name": "Hannibal's Legacy",
+        "unitType": "Civilian",
+        "uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [General] group",
+            "Great Person - [War]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 2,
+        "uniqueTo": "Order of Aurelia",
+        "replaces": "Great General",
+        "civilopediaText": [
+            {
+                "text": "Hannibal's victories demonstrated what disciplined leadership could accomplish against overwhelming odds. His legacy became the foundation of Aurelia's professional military doctrine: careful planning, decisive action, and commanders who fight beside their soldiers."
+            }
+        ]
+    }
+]
