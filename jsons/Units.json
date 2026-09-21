@@ -59,6 +59,7 @@
         "replaces": "Infantry",
         "uniques": [
             "[+10]% Strength",
+            "[+10]% Strength <vs [Ranged] units> <when defending>",
             "15% production cost"
         ],
         "civilopediaText": [
