@@ -4,7 +4,7 @@
         "unitType": "Sword",
         "movement": 2,
         "strength": 14,
-        "cost": 75,
+        "cost": 83,
         "requiredTech": "Iron Working",
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
@@ -15,7 +15,7 @@
         "replaces": "Swordsman",
         "uniques": [
             "[+10]% Strength",
-            "10% production cost"
+            "[+10]% Strength"
         ],
         "civilopediaText": [
             {
@@ -28,7 +28,7 @@
         "unitType": "Gunpowder",
         "movement": 2,
         "strength": 34,
-        "cost": 225,
+        "cost": 248,
         "requiredTech": "Rifling",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Great War Infantry",
@@ -37,7 +37,7 @@
         "replaces": "Rifleman",
         "uniques": [
             "[+10]% Strength",
-            "10% production cost"
+            "[+10]% Strength"
         ],
         "civilopediaText": [
             {
@@ -50,7 +50,7 @@
         "unitType": "Gunpowder",
         "movement": 2,
         "strength": 70,
-        "cost": 375,
+        "cost": 431,
         "requiredTech": "Plastics",
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
@@ -59,10 +59,7 @@
         "replaces": "Infantry",
         "uniques": [
             "[+10]% Strength",
-            "[+10]% Strength <vs [Ranged] units> <when defending>",
-            "15% production cost",
-            "10% production cost",
-            "[+10]% Strength <vs [Ranged] units> <when defending>",
+            "[+10]% Strength",
             "[+10]% Strength <when defending> <vs [Ranged]>"
         ],
         "civilopediaText": [
@@ -76,13 +73,14 @@
         "unitType": "Gunpowder",
         "movement": 3,
         "strength": 90,
-        "cost": 375,
+        "cost": 450,
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "Never appears as a Barbarian unit",
             "[+10]% Strength",
             "[1] Movement",
-            "20% production cost"
+            "[+10]% Strength",
+            "[1] Movement"
         ],
         "attackSound": "tankshot",
         "uniqueTo": "Order of Aurelia",
@@ -103,7 +101,9 @@
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [General] group",
             "Great Person - [War]",
-            "[Great General] is earned [+100]% faster <when at war>"
+            "[Hannibal's Legacy] is earned [+100]% faster <when at war>",
+            "Unbuildable",
+            "Uncapturable"
         ],
         "movement": 2,
         "uniqueTo": "Order of Aurelia",
