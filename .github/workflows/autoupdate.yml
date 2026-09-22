@@ -7,7 +7,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-permissions:
+permissions:  # NOTE: Must also allow github actions to create and apprpve pull requests from repo settings
   contents: write
   pull-requests: write
 
@@ -51,4 +51,6 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:
-          commit-message: Autoupdate
+          title: '[chore]: ci autoupdate'
+          body: '[chore]: optimized images and updated `game.atlas`'
+          assignees: ['right-ward']
