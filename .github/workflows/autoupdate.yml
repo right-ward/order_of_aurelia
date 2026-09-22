@@ -11,29 +11,27 @@ jobs:
   unciv-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       
       - name: oxipng image compression # This needs to be before the Unciv run since that packs images
         shell: bash
         run: | 
           set -euo pipefail
-          oxipng_url=$(curl -s https://api.github.com/repos/shssoichiro/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
+          oxipng_url=$(curl -L -s https://api.github.com/repos/oxipng/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
           wget -O oxipng.tar.gz $oxipng_url
           tar -xvzf oxipng.tar.gz
           rm oxipng.tar.gz
           
-          # We're left with a folder named like "oxipng-9.1.2-x86_64-unknown-linux-gnu" which contains the actual executable
-          # So we find the file, run it on all png files in "Images" folders, and then delete the folder so it won't be a git diff
-          oxipng_file=$(find oxipng* | grep "/oxipng")
-          find Images* -type f -regex ".*png" | xargs -d '\n' $oxipng_file --opt max --strip all --alpha
-          rm -rf $(ls -1 | grep oxipng)
+          mv oxipng-*-x86_64-unknown-linux-gnu/oxipng .
+          rm -fr oxipng-*-x86_64-unknown-linux-gnu/
+          find Images* -type f -regex ".*png" | xargs -d '\n' ./oxipng -o max --strip all --alpha -v
+          rm -rf oxipng
 
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: 17
 
-      # Runs a set of commands using the runners shell
       - name: Autoupdate
         continue-on-error: true  # We want to autoupdate even if there are errors
         shell: bash
